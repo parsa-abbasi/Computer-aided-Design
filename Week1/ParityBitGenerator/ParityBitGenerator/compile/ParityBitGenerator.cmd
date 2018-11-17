@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\ParityBitGenerator\library.cfg"  -j "c:\My_Designs\ParityBitGenerator\ParityBitGenerator\projlib.cfg"  -d "c:\My_Designs\ParityBitGenerator\ParityBitGenerator\compile"   -work ParityBitGenerator  -O3 -e 100 -2002 "c:\My_Designs\ParityBitGenerator\ParityBitGenerator\src\TestBench\paritybitgenerator_TB.vhd" 

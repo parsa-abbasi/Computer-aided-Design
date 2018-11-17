@@ -1,0 +1,6 @@
+315
+~E 1 "./src/TestBench/paritybitgenerator_TB.vhd" 6 paritybitgenerator_tb
+~A 1 "./src/TestBench/paritybitgenerator_TB.vhd" 9 tb_architecture
+~E 1 "./src/ParityBitGenerator.vhd" 28 paritybitgenerator
+~A 1 "./src/ParityBitGenerator.vhd" 38 paritybitgenerator
+~C 1 "./src/TestBench/paritybitgenerator_TB.vhd" 47 testbench_for_paritybitgenerator

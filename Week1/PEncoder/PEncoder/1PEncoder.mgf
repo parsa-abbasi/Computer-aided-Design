@@ -1,0 +1,1054 @@
+I 000049 55 1690          1541621980507 PEncoder
+(_unit VHDL (pencoder 0 29 (pencoder 0 37 ))
+	(_version v80)
+	(_time 1541621980508 2018.11.07 23:49:40)
+	(_source (\./src/PEncoder.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code b7b2b3e3b5e0b6a1b5b6f1ede2b1b2b0b5b0b7b1b2)
+	(_entity
+		(_time 1541621973029)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 38 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_signal (_internal temp ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 38 (_architecture (_uni ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_process (_simple)(_target(1)(2))(_sensitivity(0))(_read(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . PEncoder 4 -1
+	)
+)
+I 000056 55 2432          1541622018449 TB_ARCHITECTURE
+(_unit VHDL (pencoder_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541622018450 2018.11.07 23:50:18)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code e8bde0bbe5bfe9fee8eaaeb2bdeeedefeaedbeefec)
+	(_entity
+		(_time 1541622018444)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(PEncoder
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 4)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component PEncoder )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . PEncoder)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 6 )(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 7 -1
+	)
+)
+I 000041 55 468 0 testbench_for_pencoder
+(_configuration VHDL (testbench_for_pencoder 0 55 (pencoder_tb))
+	(_version v80)
+	(_time 1541622018468 2018.11.07 23:50:18)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code f8adf4a8f5aeafeffcf9eaa2acfeadfefbfef0fdae)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . PEncoder pencoder
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000049 55 1690          1541622021892 PEncoder
+(_unit VHDL (pencoder 0 29 (pencoder 0 37 ))
+	(_version v80)
+	(_time 1541622021893 2018.11.07 23:50:21)
+	(_source (\./src/PEncoder.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 66326066653167706467203c336063616461666063)
+	(_entity
+		(_time 1541621973029)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 38 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_signal (_internal temp ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 38 (_architecture (_uni ))))
+		(_process
+			(line__40(_architecture 0 0 40 (_process (_simple)(_target(1)(2))(_sensitivity(0))(_read(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . PEncoder 4 -1
+	)
+)
+I 000056 55 2432          1541622022592 TB_ARCHITECTURE
+(_unit VHDL (pencoder_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541622022593 2018.11.07 23:50:22)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 15411c12154214031517534f401310121710431211)
+	(_entity
+		(_time 1541622018443)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(PEncoder
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 4)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component PEncoder )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . PEncoder)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 6 )(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 7 -1
+	)
+)
+I 000041 55 468 0 testbench_for_pencoder
+(_configuration VHDL (testbench_for_pencoder 0 55 (pencoder_tb))
+	(_version v80)
+	(_time 1541622022598 2018.11.07 23:50:22)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 25712821257372322124377f7123702326232d2073)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . PEncoder pencoder
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000049 55 1669          1541622751788 PEncoder
+(_unit VHDL (pencoder 0 29 (pencoder 0 37 ))
+	(_version v80)
+	(_time 1541622751789 2018.11.08 00:02:31)
+	(_source (\./src/PEncoder.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 88da818685df899e8a89ced2dd8e8d8f8a8f888e8d)
+	(_entity
+		(_time 1541621973029)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal temp ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . PEncoder 4 -1
+	)
+)
+I 000056 55 2432          1541622776959 TB_ARCHITECTURE
+(_unit VHDL (pencoder_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541622776960 2018.11.08 00:02:56)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code dcdf8e8e8a8bddcadcde9a8689dad9dbded98adbd8)
+	(_entity
+		(_time 1541622018443)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(PEncoder
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 4)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component PEncoder )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . PEncoder)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 6 )(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 7 -1
+	)
+)
+I 000041 55 468 0 testbench_for_pencoder
+(_configuration VHDL (testbench_for_pencoder 0 55 (pencoder_tb))
+	(_version v80)
+	(_time 1541622776976 2018.11.08 00:02:56)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code ecefbabfbababbfbe8edfeb6b8eab9eaefeae4e9ba)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . PEncoder pencoder
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000049 55 1669          1541622779902 PEncoder
+(_unit VHDL (pencoder 0 29 (pencoder 0 37 ))
+	(_version v80)
+	(_time 1541622779903 2018.11.08 00:02:59)
+	(_source (\./src/PEncoder.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 56545155550157405457100c035053515451565053)
+	(_entity
+		(_time 1541621973029)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal temp ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . PEncoder 4 -1
+	)
+)
+I 000056 55 2432          1541622780568 TB_ARCHITECTURE
+(_unit VHDL (pencoder_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541622780569 2018.11.08 00:03:00)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code f5f7fca5f5a2f4e3f5f7b3afa0f3f0f2f7f0a3f2f1)
+	(_entity
+		(_time 1541622018443)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(PEncoder
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 4)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component PEncoder )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . PEncoder)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 6 )(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 7 -1
+	)
+)
+I 000041 55 468 0 testbench_for_pencoder
+(_configuration VHDL (testbench_for_pencoder 0 55 (pencoder_tb))
+	(_version v80)
+	(_time 1541622780575 2018.11.08 00:03:00)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code f5f7f8a5f5a3a2e2f1f4e7afa1f3a0f3f6f3fdf0a3)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . PEncoder pencoder
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000056 55 2432          1541624436589 TB_ARCHITECTURE
+(_unit VHDL (pencoder_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541624436590 2018.11.08 00:30:36)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code c5cb9090c592c4d3c5c7839f90c3c0c2c7c093c2c1)
+	(_entity
+		(_time 1541622018443)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(PEncoder
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 4)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component PEncoder )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . PEncoder)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 6 )(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 7 -1
+	)
+)
+I 000041 55 468 0 testbench_for_pencoder
+(_configuration VHDL (testbench_for_pencoder 0 55 (pencoder_tb))
+	(_version v80)
+	(_time 1541624436604 2018.11.08 00:30:36)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code d5db8487d58382c2d1d4c78f81d380d3d6d3ddd083)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . PEncoder pencoder
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000049 55 1669          1541624439283 PEncoder
+(_unit VHDL (pencoder 0 29 (pencoder 0 37 ))
+	(_version v80)
+	(_time 1541624439284 2018.11.08 00:30:39)
+	(_source (\./src/PEncoder.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 54025d57550355425655120e015251535653545251)
+	(_entity
+		(_time 1541621973029)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal temp ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . PEncoder 4 -1
+	)
+)
+I 000056 55 2432          1541624439842 TB_ARCHITECTURE
+(_unit VHDL (pencoder_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541624439843 2018.11.08 00:30:39)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 77212576752076617775312d227172707572217073)
+	(_entity
+		(_time 1541622018443)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(PEncoder
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 4)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component PEncoder )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . PEncoder)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 6 )(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 7 -1
+	)
+)
+I 000041 55 468 0 testbench_for_pencoder
+(_configuration VHDL (testbench_for_pencoder 0 55 (pencoder_tb))
+	(_version v80)
+	(_time 1541624439858 2018.11.08 00:30:39)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 87d1d18985d1d090838695ddd381d28184818f82d1)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . PEncoder pencoder
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000049 55 1669          1541676766477 PEncoder
+(_unit VHDL (pencoder 0 29 (pencoder 0 37 ))
+	(_version v80)
+	(_time 1541676766478 2018.11.08 15:02:46)
+	(_source (\./src/PEncoder.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 30326535356731263231766a653635373237303635)
+	(_entity
+		(_time 1541621973029)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal temp ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . PEncoder 4 -1
+	)
+)
+I 000056 55 2432          1541676796202 TB_ARCHITECTURE
+(_unit VHDL (pencoder_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541676796203 2018.11.08 15:03:16)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 56055455550157405654100c035053515453005152)
+	(_entity
+		(_time 1541622018443)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(PEncoder
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 4)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component PEncoder )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . PEncoder)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 6 )(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 7 -1
+	)
+)
+I 000041 55 468 0 testbench_for_pencoder
+(_configuration VHDL (testbench_for_pencoder 0 55 (pencoder_tb))
+	(_version v80)
+	(_time 1541676796373 2018.11.08 15:03:16)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 0251050405545515060310585604570401040a0754)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . PEncoder pencoder
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000049 55 1669          1541676799976 PEncoder
+(_unit VHDL (pencoder 0 29 (pencoder 0 37 ))
+	(_version v80)
+	(_time 1541676799977 2018.11.08 15:03:19)
+	(_source (\./src/PEncoder.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 0c5e0d0a5a5b0d1a0e0d4a56590a090b0e0b0c0a09)
+	(_entity
+		(_time 1541621973029)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal temp ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . PEncoder 4 -1
+	)
+)
+I 000056 55 2432          1541676800654 TB_ARCHITECTURE
+(_unit VHDL (pencoder_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541676800655 2018.11.08 15:03:20)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code bbe9b8efececbaadbbb9fde1eebdbebcb9beedbcbf)
+	(_entity
+		(_time 1541622018443)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(PEncoder
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 4)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component PEncoder )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . PEncoder)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 6 )(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 7 -1
+	)
+)
+I 000041 55 468 0 testbench_for_pencoder
+(_configuration VHDL (testbench_for_pencoder 0 55 (pencoder_tb))
+	(_version v80)
+	(_time 1541676800659 2018.11.08 15:03:20)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code bbe9bcefecedecacbfbaa9e1efbdeebdb8bdb3beed)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . PEncoder pencoder
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000056 55 2432          1541676831517 TB_ARCHITECTURE
+(_unit VHDL (pencoder_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541676831518 2018.11.08 15:03:51)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 47451445451046514745011d124142404542114043)
+	(_entity
+		(_time 1541622018443)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(PEncoder
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 4)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component PEncoder )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . PEncoder)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 6 )(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 7 -1
+	)
+)
+I 000041 55 468 0 testbench_for_pencoder
+(_configuration VHDL (testbench_for_pencoder 0 55 (pencoder_tb))
+	(_version v80)
+	(_time 1541676831527 2018.11.08 15:03:51)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 56540155550001415257440c0250035055505e5300)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . PEncoder pencoder
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+V 000049 55 1669          1541676836667 PEncoder
+(_unit VHDL (pencoder 0 29 (pencoder 0 37 ))
+	(_version v80)
+	(_time 1541676836668 2018.11.08 15:03:56)
+	(_source (\./src/PEncoder.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 6b6b6b6b3c3c6a7d696a2d313e6d6e6c696c6b6d6e)
+	(_entity
+		(_time 1541621973029)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 32 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal temp ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . PEncoder 4 -1
+	)
+)
+V 000056 55 2432          1541676837594 TB_ARCHITECTURE
+(_unit VHDL (pencoder_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541676837595 2018.11.08 15:03:57)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 05050103055204130507435f500300020700530201)
+	(_entity
+		(_time 1541622018443)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(PEncoder
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 4)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component PEncoder )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . PEncoder)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \4\ (_entity ((i 4)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{{2**N}-1~downto~0}~132 0 24 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 6 )(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 7 -1
+	)
+)
+V 000041 55 468 0 testbench_for_pencoder
+(_configuration VHDL (testbench_for_pencoder 0 55 (pencoder_tb))
+	(_version v80)
+	(_time 1541676837600 2018.11.08 15:03:57)
+	(_source (\./src/TestBench/pencoder_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 05050503055352120104175f5103500306030d0053)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . PEncoder pencoder
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)

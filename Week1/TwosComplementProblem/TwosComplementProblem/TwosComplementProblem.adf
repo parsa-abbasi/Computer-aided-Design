@@ -1,0 +1,72 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=TwosComplementProblem
+
+[Library]
+TwosComplementProblem=.\TwosComplementProblem.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+TwosComplementProblem=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=twoscomplementproblem_tb|testbench_for_twoscomplementproblem|1 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/TwosComplementProblem.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+TestBench/twoscomplementproblem_TB.vhd=-1
+TestBench/twoscomplementproblem_TB_runtest.do=-1
+
+[Files.Data]
+.\src\TwosComplementProblem.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\twoscomplementproblem_TB.vhd=VHDL Test Bench
+.\src\TestBench\twoscomplementproblem_TB_runtest.do=Macro
+

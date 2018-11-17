@@ -1,0 +1,2009 @@
+I 000062 55 1710          1541677886656 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541677886657 2018.11.08 15:21:26)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code ebebeab9bebce9fce9bff8b1ecedbfecebedb8edee)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541677924636 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541677924637 2018.11.08 15:22:04)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 4c4b194f181b4e5b4c4e5f164b4a184b4c4a1f4a49)
+	(_entity
+		(_time 1541677924629)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541677924649 2018.11.08 15:22:04)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 4c4b194e1a1a1b5b484d5e16184a194a4f4a44491a)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541677931954 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541677931955 2018.11.08 15:22:11)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code dcd9de8f888bdecbde88cf86dbda88dbdcda8fdad9)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541677932567 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541677932568 2018.11.08 15:22:12)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 3d3830396e6a3f2a3d3f2e673a3b693a3d3b6e3b38)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541677932573 2018.11.08 15:22:12)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 4d48404f1c1b1a5a494c5f17194b184b4e4b45481b)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541678020583 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541678020584 2018.11.08 15:23:40)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 0d02080a5e5a0f1a0f591e570a0b590a0d0b5e0b08)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541678039599 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678039600 2018.11.08 15:23:59)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 55010357570257425557460f525301525553065350)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678039605 2018.11.08 15:23:59)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 64303264653233736065763e3062316267626c6132)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541678041875 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541678041876 2018.11.08 15:24:01)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 3e6d3e3a6c693c293c6a2d6439386a393e386d383b)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541678042551 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678042552 2018.11.08 15:24:02)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code de8ddc8d8c89dcc9dedccd84d9d88ad9ded88dd8db)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678042558 2018.11.08 15:24:02)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code edbeefbebcbbbafae9ecffb7b9ebb8ebeeebe5e8bb)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000056 55 2348          1541678108012 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678108013 2018.11.08 15:25:08)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 9bc89995cecc998c9b9988c19c9dcf9c9b9dc89d9e)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678108022 2018.11.08 15:25:08)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 9bc89994cccdcc8c9f9a89c1cf9dce9d989d939ecd)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541678111961 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541678111962 2018.11.08 15:25:11)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code fcaefdada8abfeebfea8efa6fbfaa8fbfcfaaffaf9)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541678112609 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678112610 2018.11.08 15:25:12)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 8cde8083d8db8e9b8c8e9fd68b8ad88b8c8adf8a89)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678112616 2018.11.08 15:25:12)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 8cde8082dadadb9b888d9ed6d88ad98a8f8a8489da)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541678300655 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541678300656 2018.11.08 15:28:20)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 1b4f181d4e4c190c194f08411c1d4f1c1b1d481d1e)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000062 55 1710          1541678313005 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541678313006 2018.11.08 15:28:33)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 530250515704514451074009545507545355005556)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541678323975 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678323976 2018.11.08 15:28:43)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 2c292a29787b2e3b2c2e3f762b2a782b2c2a7f2a29)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678323988 2018.11.08 15:28:43)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 3b3e3d3e6c6d6c2c3f3a29616f3d6e3d383d333e6d)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541678326390 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541678326391 2018.11.08 15:28:46)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code a2a7f4f4a7f5a0b5a0f6b1f8a5a4f6a5a2a4f1a4a7)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541678327044 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678327045 2018.11.08 15:28:47)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 323763363765302532302168353466353234613437)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678327051 2018.11.08 15:28:47)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 3237633735646525363320686634673431343a3764)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000056 55 2348          1541678345785 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678345786 2018.11.08 15:29:05)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 60606361673762776062733a676634676066336665)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678345792 2018.11.08 15:29:05)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 70707371752627677471622a247625767376787526)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541678348196 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541678348197 2018.11.08 15:29:08)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code c6c9c292c791c4d1c492d59cc1c092c1c6c095c0c3)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541678348867 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678348868 2018.11.08 15:29:08)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 66696167673164716664753c616032616660356063)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678348873 2018.11.08 15:29:08)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 76797177752021617277642c2270237075707e7320)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541678392176 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541678392177 2018.11.08 15:29:52)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 9792c09997c0958095c384cd9091c3909791c49192)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541678392816 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678392817 2018.11.08 15:29:52)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 17124511174015001715044d101143101711441112)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678392821 2018.11.08 15:29:52)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 17124510154140001316054d4311421114111f1241)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541678512801 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541678512802 2018.11.08 15:31:52)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code c8cfcf9cc79fcadfca9cdb92cfce9ccfc8ce9bcecd)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541678544224 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678544225 2018.11.08 15:32:24)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 8686d78987d18491868495dc8180d2818680d58083)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678544236 2018.11.08 15:32:24)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 9595c49a95c3c282919487cfc193c09396939d90c3)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541678547671 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541678547672 2018.11.08 15:32:27)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 030c54040754011401571059040557040305500506)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2348          1541678548111 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541678548112 2018.11.08 15:32:28)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code b8b7e8edb7efbaafb8baabe2bfbeecbfb8beebbebd)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 55 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541678548118 2018.11.08 15:32:28)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code b8b7e8ecb5eeefafbcb9aae2ecbeedbebbbeb0bdee)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000056 55 2340          1541679214119 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541679214120 2018.11.08 15:43:34)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 580d5b5a570f5a4f585c4b025f5e0c5f585e0b5e5d)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+	)
+	(_static
+		(33686018 50529027 )
+		(33751555 33751555 )
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 53 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541679214129 2018.11.08 15:43:34)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 580d5b5b550e0f4f5c594a020c5e0d5e5b5e505d0e)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541679217640 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541679217641 2018.11.08 15:43:37)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 14401512174316031640074e131240131412471211)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2340          1541679218373 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541679218374 2018.11.08 15:43:38)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code f2a6f1a3f7a5f0e5f2f6e1a8f5f4a6f5f2f4a1f4f7)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+	)
+	(_static
+		(33686018 50529027 )
+		(33751555 33751555 )
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 53 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541679218379 2018.11.08 15:43:38)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code f2a6f1a2f5a4a5e5f6f3e0a8a6f4a7f4f1f4faf7a4)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000056 55 2412          1541679380852 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541679380853 2018.11.08 15:46:20)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 9794919997c09580979484cd9091c3909791c49192)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+	)
+	(_static
+		(33686018 50529027 )
+		(33751555 33751555 )
+		(33751811 33686018 )
+		(33686275 33686018 )
+		(50529027 33686019 )
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 56 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541679380863 2018.11.08 15:46:20)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code a6a5a0f1a5f0f1b1a2a7b4fcf2a0f3a0a5a0aea3f0)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000062 55 1710          1541679383550 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541679383551 2018.11.08 15:46:23)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 26257623277124312472357c212072212620752023)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+I 000056 55 2412          1541679384226 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541679384227 2018.11.08 15:46:24)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code c6c59492c791c4d1c6c5d59cc1c092c1c6c095c0c3)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+	)
+	(_static
+		(33686018 50529027 )
+		(33751555 33751555 )
+		(33751811 33686018 )
+		(33686275 33686018 )
+		(50529027 33686019 )
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 56 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541679384232 2018.11.08 15:46:24)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code d5d68787d58382c2d1d4c78f81d380d3d6d3ddd083)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+I 000056 55 2483          1541679548955 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541679548956 2018.11.08 15:49:08)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 4417434747134653444b571e434210434442174241)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_static
+		(33686018 50529027 )
+		(33751555 33751555 )
+		(33751811 33686018 )
+		(33686275 33686018 )
+		(50529027 33686019 )
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+I 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 60 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541679548966 2018.11.08 15:49:08)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 54075357550203435055460e0052015257525c5102)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)
+V 000062 55 1710          1541679557067 TwosComplementProblem
+(_unit VHDL (twoscomplementproblem 0 29 (twoscomplementproblem 0 37 ))
+	(_version v80)
+	(_time 1541679557068 2018.11.08 15:49:17)
+	(_source (\./src/TwosComplementProblem.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code f1a0f7a0f7a6f3e6f3a5e2abf6f7a5f6f1f7a2f7f4)
+	(_entity
+		(_time 1541677790474)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 30 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~122 0 32 (_entity (_out ))))
+		(_type (_internal ~UNSIGNED{N-1~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 3 )(i 0))))))
+		(_variable (_internal counter ~UNSIGNED{N-1~downto~0}~13 0 40 (_process 0 )))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_simple)(_target(1))(_sensitivity(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TwosComplementProblem 4 -1
+	)
+)
+V 000056 55 2483          1541679557475 TB_ARCHITECTURE
+(_unit VHDL (twoscomplementproblem_tb 0 7 (tb_architecture 0 13 ))
+	(_version v80)
+	(_time 1541679557476 2018.11.08 15:49:17)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 88d9888787df8a9f88879bd28f8edc8f888edb8e8d)
+	(_entity
+		(_time 1541677924628)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(TwosComplementProblem
+			(_object
+				(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 17 (_entity -1 ((i 8)))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 1 )(i 0))))))
+				(_port (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~13 0 19 (_entity (_in ))))
+				(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 2 )(i 0))))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~132 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component TwosComplementProblem )
+		(_generic
+			((N)(_code 3))
+		)
+		(_port
+			((Input)(Input))
+			((Output)(Output))
+		)
+		(_use (_entity . TwosComplementProblem)
+			(_generic
+				((N)(_code 4))
+			)
+			(_port
+				((Input)(Input))
+				((Output)(Output))
+			)
+		)
+	)
+	(_object
+		(_generic (_internal N ~extSTD.STANDARD.POSITIVE 0 10 \8\ (_entity ((i 8)))))
+		(_type (_internal ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (c 5 )(i 0))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 24 (_architecture (_uni ))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{N-1~downto~0}~134 0 26 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 44 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.POSITIVE (std STANDARD POSITIVE)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_static
+		(33686018 50529027 )
+		(33751555 33751555 )
+		(33751811 33686018 )
+		(33686275 33686018 )
+		(50529027 33686019 )
+	)
+	(_model . TB_ARCHITECTURE 6 -1
+	)
+)
+V 000054 55 533 0 testbench_for_twoscomplementproblem
+(_configuration VHDL (testbench_for_twoscomplementproblem 0 60 (twoscomplementproblem_tb))
+	(_version v80)
+	(_time 1541679557482 2018.11.08 15:49:17)
+	(_source (\./src/TestBench/twoscomplementproblem_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 97c6979895c1c080939685cdc391c29194919f92c1)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . TwosComplementProblem twoscomplementproblem
+				(_port
+					((Input)(Input))
+					((Output)(Output))
+				)
+			)
+		)
+	)
+)

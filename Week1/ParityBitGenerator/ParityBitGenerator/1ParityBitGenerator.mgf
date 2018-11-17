@@ -1,0 +1,2333 @@
+I 000059 55 1327          1541154582534 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541154582535 2018.11.02 13:59:42)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 0e5d0b085a58581806081a5556080c0807090a0809)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2040          1541155312943 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541155312944 2018.11.02 14:11:52)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 34656531316262223f60206f6c3236323d33303233)
+	(_entity
+		(_time 1541155312937)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+		(33686018 197122 )
+		(33686018 131842 )
+		(33686018 197378 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541155312956 2018.11.02 14:11:52)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 44151146451213534045561e1042114247424c4112)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541155323846 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541155323847 2018.11.02 14:12:03)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code cfcacb9a989999d9c7c9db9497c9cdc9c6c8cbc9c8)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2040          1541155324452 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541155324453 2018.11.02 14:12:04)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 30353735316666263b64246b683632363937343637)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+		(33686018 197122 )
+		(33686018 131842 )
+		(33686018 197378 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541155324461 2018.11.02 14:12:04)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 30353335356667273431226a643665363336383566)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 2040          1541155439615 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541155439616 2018.11.02 14:13:59)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 04560d02015252120f57105f5c0206020d03000203)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+		(33686018 197122 )
+		(33686018 131842 )
+		(33686018 197378 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 48 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541155439631 2018.11.02 14:13:59)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 14461913154243031015064e4012411217121c1142)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541155510692 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541155510693 2018.11.02 14:15:10)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code aafbfffdfafcfcbca2acbef1f2aca8aca3adaeacad)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2040          1541155511296 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541155511297 2018.11.02 14:15:11)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 0c0b0d0a5e5a5a1a075f1857540a0e0a050b080a0b)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+		(33686018 197122 )
+		(33686018 131842 )
+		(33686018 197378 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 42 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541158533072 2018.11.02 15:05:33)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code d1d78683d58786c6d5d0c38b85d784d7d2d7d9d487)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 1972          1541158542031 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541158542032 2018.11.02 15:05:42)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code dade8c888a8c8cccd1dace8182dcd8dcd3dddedcdd)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 28 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 36 (_process (_simple)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 42 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541158542049 2018.11.02 15:05:42)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code eaeeb8b9bebcbdfdeeebf8b0beecbfece9ece2efbc)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541158549060 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541158549061 2018.11.02 15:05:49)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 51530352510707475957450a095753575856555756)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 1972          1541158549265 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541158549266 2018.11.02 15:05:49)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 1d1f4e1a484b4b0b161d0946451b1f1b141a191b1a)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 28 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 36 (_process (_simple)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 42 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541158549277 2018.11.02 15:05:49)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 2c2e7b287a7a7b3b282d3e76782a792a2f2a24297a)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 1972          1541158554242 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541158554243 2018.11.02 15:05:54)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 8584d38b81d3d3938e8591dedd8387838c82818382)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 28 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 36 (_process (_simple)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 42 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541158554250 2018.11.02 15:05:54)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 9594c79a95c3c282919487cfc193c09396939d90c3)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 1963          1541158672927 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541158672928 2018.11.02 15:07:52)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 25217321217373332e2a317e7d2327232c22212322)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 28 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 36 (_process (_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 43 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541158672942 2018.11.02 15:07:52)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 34306631356263233035266e6032613237323c3162)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541158688068 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541158688069 2018.11.02 15:08:08)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 4949184b411f1f5f414f5d12114f4b4f404e4d4f4e)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 1963          1541158688637 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541158688638 2018.11.02 15:08:08)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 8c8cdf82dedada9a878398d7d48a8e8a858b888a8b)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 28 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 36 (_process (_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 43 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541158688646 2018.11.02 15:08:08)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 8c8cdb82dadadb9b888d9ed6d88ad98a8f8a8489da)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 1963          1541158745823 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541158745824 2018.11.02 15:09:05)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code efedbdbcb8b9b9f9e4e0fbb4b7e9ede9e6e8ebe9e8)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 28 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 36 (_process (_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131842 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 43 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541158745832 2018.11.02 15:09:05)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code efedb9bcbcb9b8f8ebeefdb5bbe9bae9ece9e7eab9)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541158749285 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541158749286 2018.11.02 15:09:09)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 6c6d656c3e3a3a7a646a7837346a6e6a656b686a6b)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 1963          1541158749907 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541158749908 2018.11.02 15:09:09)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code dddc8f8f888b8bcbd6d2c98685dbdfdbd4dad9dbda)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 28 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 36 (_process (_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131842 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 43 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159008246 2018.11.02 15:13:28)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 05075503055352120104175f5103500306030d0053)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 1974          1541159019155 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541159019156 2018.11.02 15:13:39)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 9f909890c8c9c98994908bc4c7999d9996989b9998)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 28 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 36 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131842 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 43 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159019165 2018.11.02 15:13:39)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 9f909c90ccc9c8889b9e8dc5cb99ca999c99979ac9)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 1996          1541159033943 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541159033944 2018.11.02 15:13:53)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 5c085d5f0e0a0a4a57524807045a5e5a555b585a5b)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 28 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 36 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+		(33686018 197122 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 44 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159033953 2018.11.02 15:13:53)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 6c38696c3a3a3b7b686d7e36386a396a6f6a64693a)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541159037515 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541159037516 2018.11.02 15:13:57)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 57030154510101415f51430c0f5155515e50535150)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 1996          1541159038080 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541159038081 2018.11.02 15:13:58)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 89da888781dfdf9f82879dd2d18f8b8f808e8d8f8e)
+	(_entity
+		(_time 1541155312936)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 28 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 36 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 131586 )
+		(33686018 197122 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 432 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 46 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159441667 2018.11.02 15:20:41)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 1342461415454404171201494715461510151b1645)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 2047          1541159576760 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1541159576761 2018.11.02 15:22:56)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code c9cec09cc19f9fdfc29ddd9291cfcbcfc0cecdcfce)
+	(_entity
+		(_time 1541159576754)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 23 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159576771 2018.11.02 15:22:56)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code c9cec49cc59f9edecdc8db939dcf9ccfcacfc1cc9f)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541159581245 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541159581246 2018.11.02 15:23:01)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 4d4b1f4f181b1b5b454b5916154b4f4b444a494b4a)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2047          1541159581861 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1541159581862 2018.11.02 15:23:01)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code aea8faf9faf8f8b8a5fabaf5f6a8aca8a7a9aaa8a9)
+	(_entity
+		(_time 1541159576753)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 23 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159581867 2018.11.02 15:23:01)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code aea8fef9fef8f9b9aaafbcf4faa8fba8ada8a6abf8)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 2047          1541159718108 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1541159718109 2018.11.02 15:25:18)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code e8ece9bbe1bebefee3bcfcb3b0eeeaeee1efeceeef)
+	(_entity
+		(_time 1541159576753)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 23 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159718115 2018.11.02 15:25:18)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code e8ecedbbe5bebfffece9fab2bceebdeeebeee0edbe)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 2047          1541159733398 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1541159733399 2018.11.02 15:25:33)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 9a9bce95cacccc8c91ce8ec1c29c989c939d9e9c9d)
+	(_entity
+		(_time 1541159576753)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 23 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159733443 2018.11.02 15:25:33)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code c8c9989dc59e9fdfccc9da929cce9dcecbcec0cd9e)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541159736715 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541159736716 2018.11.02 15:25:36)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 9a9acb95cacccc8c929c8ec1c29c989c939d9e9c9d)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2047          1541159737387 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1541159737388 2018.11.02 15:25:37)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 3a3a6e3f6a6c6c2c316e2e61623c383c333d3e3c3d)
+	(_entity
+		(_time 1541159576753)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 23 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159737393 2018.11.02 15:25:37)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 3a3a6a3f6e6c6d2d3e3b28606e3c6f3c393c323f6c)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541159764965 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541159764966 2018.11.02 15:26:04)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code f4a6fca4f1a2a2e2fcf2e0afacf2f6f2fdf3f0f2f3)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2047          1541159765099 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1541159765100 2018.11.02 15:26:05)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 71237870712727677a25652a297773777876757776)
+	(_entity
+		(_time 1541159576753)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 23 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159765107 2018.11.02 15:26:05)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 80d28d8e85d6d797848192dad486d58683868885d6)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541159768714 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541159768715 2018.11.02 15:26:08)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 9acb9d95cacccc8c929c8ec1c29c989c939d9e9c9d)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2047          1541159769118 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1541159769119 2018.11.02 15:26:09)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 20712924217676362b74347b782622262927242627)
+	(_entity
+		(_time 1541159576753)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 14 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 20 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 23 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159769124 2018.11.02 15:26:09)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 30613d35356667273431226a643665363336383566)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541159834834 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541159834835 2018.11.02 15:27:14)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code d786de85d18181c1dfd1c38c8fd1d5d1ded0d3d1d0)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2046          1541159878798 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541159878799 2018.11.02 15:27:58)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 98ce9d9791cece8e93cc8cc3c09e9a9e919f9c9e9f)
+	(_entity
+		(_time 1541159878796)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159878805 2018.11.02 15:27:58)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 98ce999795cecf8f9c998ac2cc9ecd9e9b9e909dce)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541159883378 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541159883379 2018.11.02 15:28:03)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 7a2f7d7b2a2c2c6c727c6e21227c787c737d7e7c7d)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2046          1541159884048 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541159884049 2018.11.02 15:28:04)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 1a4f4b1d4a4c4c0c114e0e41421c181c131d1e1c1d)
+	(_entity
+		(_time 1541159878795)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159884054 2018.11.02 15:28:04)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 1a4f4f1d4e4c4d0d1e1b08404e1c4f1c191c121f4c)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 2046          1541159946046 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541159946047 2018.11.02 15:29:06)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 4a1c19481a1c1c5c411e5e11124c484c434d4e4c4d)
+	(_entity
+		(_time 1541159878795)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159946054 2018.11.02 15:29:06)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 4a1c1d481e1c1d5d4e4b58101e4c1f4c494c424f1c)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541159948205 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541159948206 2018.11.02 15:29:08)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code b6e3b2e2b1e0e0a0beb0a2edeeb0b4b0bfb1b2b0b1)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2046          1541159948615 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541159948616 2018.11.02 15:29:08)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 4c194a4e1e1a1a5a47185817144a4e4a454b484a4b)
+	(_entity
+		(_time 1541159878795)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541159948621 2018.11.02 15:29:08)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 5c095e5f0a0a0b4b585d4e06085a095a5f5a54590a)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 2046          1541160050082 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541160050083 2018.11.02 15:30:50)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code a9aaabfea1ffffbfa2fdbdf2f1afabafa0aeadafae)
+	(_entity
+		(_time 1541159878795)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541160050088 2018.11.02 15:30:50)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code b9babfedb5efeeaebdb8abe3edbfecbfbabfb1bcef)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000059 55 1327          1541160055696 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541160055697 2018.11.02 15:30:55)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 92909a9d91c4c4849a9486c9ca9490949b95969495)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+I 000056 55 2046          1541160056120 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541160056121 2018.11.02 15:30:56)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 484a194a411e1e5e431c5c13104e4a4e414f4c4e4f)
+	(_entity
+		(_time 1541159878795)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541160056126 2018.11.02 15:30:56)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 484a1d4a451e1f5f4c495a121c4e1d4e4b4e404d1e)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+I 000056 55 2046          1541160080017 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541160080018 2018.11.02 15:31:20)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 9bce9c94c8cdcd8d90cf8fc0c39d999d929c9f9d9c)
+	(_entity
+		(_time 1541159878795)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541160080023 2018.11.02 15:31:20)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 9bce9894cccdcc8c9f9a89c1cf9dce9d989d939ecd)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)
+V 000059 55 1327          1541160083023 ParityBitGenerator
+(_unit VHDL (paritybitgenerator 0 28 (paritybitgenerator 0 38 ))
+	(_version v80)
+	(_time 1541160083024 2018.11.02 15:31:23)
+	(_source (\./src/ParityBitGenerator.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 53075050510505455b5547080b5551555a54575554)
+	(_entity
+		(_time 1541154567868)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~12 0 30 (_entity (_in ))))
+		(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_out ))))
+		(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_out ))))
+		(_signal (_internal parity ~extieee.std_logic_1164.STD_LOGIC 0 39 (_internal (_uni ))))
+		(_process
+			(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(2))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+			(line__43(_architecture 1 0 43 (_assignment (_simple)(_target(1))(_sensitivity(0(6))(0(5))(0(4))(0(3))(0(2))(0(1))(0(0))))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_model . ParityBitGenerator 2 -1
+	)
+)
+V 000056 55 2046          1541160083420 TB_ARCHITECTURE
+(_unit VHDL (paritybitgenerator_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1541160083421 2018.11.02 15:31:23)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code e9bdedbae1bfbfffe2bdfdb2b1efebefe0eeedefee)
+	(_entity
+		(_time 1541159878795)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_component
+		(ParityBitGenerator
+			(_object
+				(_port (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_entity (_in ))))
+				(_port (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+				(_port (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 29 (_component ParityBitGenerator )
+		(_port
+			((Input)(Input))
+			((Parity_odd)(Parity_odd))
+			((Parity_even)(Parity_even))
+		)
+		(_use (_entity . ParityBitGenerator)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_array ~extieee.std_logic_1164.STD_LOGIC ((_to (i 0)(i 6))))))
+		(_signal (_internal Input ~STD_LOGIC_VECTOR{0~to~6}~132 0 19 (_architecture (_uni ))))
+		(_signal (_internal Parity_odd ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Parity_even ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_process
+			(TEST(_architecture 0 0 37 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.NATURAL (std STANDARD NATURAL)))
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+V 000051 55 451 0 testbench_for_paritybitgenerator
+(_configuration VHDL (testbench_for_paritybitgenerator 0 47 (paritybitgenerator_tb))
+	(_version v80)
+	(_time 1541160083426 2018.11.02 15:31:23)
+	(_source (\./src/TestBench/paritybitgenerator_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code e9bde9bae5bfbefeede8fbb3bdefbcefeaefe1ecbf)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . ParityBitGenerator paritybitgenerator
+			)
+		)
+	)
+)

@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: C:\My_Designs\TwosComplementProblem\TwosComplementProblem\src\TestBench\twoscomplementproblem_TB.vhd" 
+MESSAGE "Compile Entity "twoscomplementproblem_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "twoscomplementproblem_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_twoscomplementproblem"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

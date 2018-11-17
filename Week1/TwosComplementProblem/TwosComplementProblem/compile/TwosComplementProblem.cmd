@@ -1,0 +1,1 @@
+-w -s "C:\My_Designs\TwosComplementProblem\library.cfg"  -j "C:\My_Designs\TwosComplementProblem\TwosComplementProblem\projlib.cfg"  -d "C:\My_Designs\TwosComplementProblem\TwosComplementProblem\compile"   -work TwosComplementProblem  -O3 -e 100 -2002 "C:\My_Designs\TwosComplementProblem\TwosComplementProblem\src\TestBench\twoscomplementproblem_TB.vhd" 

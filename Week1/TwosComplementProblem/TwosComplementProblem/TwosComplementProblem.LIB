@@ -1,0 +1,45 @@
+timestamp=1541679557598
+
+[testbench_for_twoscomplementproblem]
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+E=1*83204
+I=0*16300
+M=2|0|v80|1541679557483|./src/TestBench/twoscomplementproblem_TB.vhd|0*15744*0x164d3b3c25a1c99e90cf14753093e6b0e1c2e869|0*16143*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/twoscomplementproblem_TB.vhd|60
+
+[twoscomplementproblem]
+A/twoscomplementproblem=A/TwosComplementProblem 21|./src/TwosComplementProblem.vhd|37|1*78893
+B/twoscomplementproblem=3*20650
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/twoscomplementproblem=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*1362
+I/twoscomplementproblem=I/TwosComplementProblem 0*9437
+M=11|0|v80|1541677790474|./src/TwosComplementProblem.vhd|0*917*0x0d721824b3c9ea2f4552b309108d11d8f76bf4db|0*1259*0xab32bc1a2daf049573e14469f634e0e6
+M/twoscomplementproblem=M/TwosComplementProblem 21|0|v80|1541679557069|./src/TwosComplementProblem.vhd|0*8804*0x7cac6644fa81f9bb331026dd698911cea4cee4fb|0*9309*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TwosComplementProblem.vhd|29
+
+[twoscomplementproblem_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/twoscomplementproblem_TB.vhd|13|1*80665
+B/tb_architecture=3*21595
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*2923
+I/tb_architecture=I/TB_ARCHITECTURE 0*15480
+M=11|0|v80|1541677924628|./src/TestBench/twoscomplementproblem_TB.vhd|0*2524*0x84e58c9d6d811e00cdf166105486645c205683d9|0*2804*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1541679557477|./src/TestBench/twoscomplementproblem_TB.vhd|0*14509*0x223b97623ed0f130bddcf8056fb1430c10a3b663|0*15342*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/twoscomplementproblem_TB.vhd|7
+
+[~A]
+ModifyID=225
+Version=73
+
+[~MFT]
+0=96|0TwosComplementProblem.mgf|16300|12068
+1=102|1TwosComplementProblem.mgf|83204|78893
+3=65|3TwosComplementProblem.mgf|21595|20650
+
+[~U]
+testbench_for_twoscomplementproblem=TESTBENCH_FOR_twoscomplementproblem 2||
+twoscomplementproblem=TwosComplementProblem 11|0*668|
+twoscomplementproblem_tb=11|0*2365|
+

@@ -1,0 +1,6 @@
+117
+~E 1 "./src/TestBench/pencoder_TB.vhd" 7 pencoder_tb
+~A 1 "./src/TestBench/pencoder_TB.vhd" 13 tb_architecture
+~E 1 "./src/PEncoder.vhd" 29 pencoder
+~A 1 "./src/PEncoder.vhd" 37 pencoder
+~C 1 "./src/TestBench/pencoder_TB.vhd" 55 testbench_for_pencoder

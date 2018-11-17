@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\SevenSegDecoder\library.cfg"  -j "c:\My_Designs\SevenSegDecoder\SevenSegDecoder\projlib.cfg"  -d "c:\My_Designs\SevenSegDecoder\SevenSegDecoder\compile"   -work SevenSegDecoder  -O3 -e 100 -2002 "c:\My_Designs\SevenSegDecoder\SevenSegDecoder\src\TestBench\sevensegdecoder_TB.vhd" 

@@ -1,0 +1,6 @@
+225
+~E 1 "./src/TwosComplementProblem.vhd" 29 twoscomplementproblem
+~A 1 "./src/TwosComplementProblem.vhd" 37 twoscomplementproblem
+~C 1 "./src/TestBench/twoscomplementproblem_TB.vhd" 60 testbench_for_twoscomplementproblem
+~E 1 "./src/TestBench/twoscomplementproblem_TB.vhd" 7 twoscomplementproblem_tb
+~A 1 "./src/TestBench/twoscomplementproblem_TB.vhd" 13 tb_architecture
