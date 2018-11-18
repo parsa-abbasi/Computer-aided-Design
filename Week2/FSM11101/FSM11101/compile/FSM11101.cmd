@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\FSM11101\library.cfg"  -j "c:\My_Designs\FSM11101\FSM11101\projlib.cfg"  -d "c:\My_Designs\FSM11101\FSM11101\compile"   -work FSM11101  -O3 -e 100 -2002 "c:\My_Designs\FSM11101\FSM11101\src\TestBench\fsm11101_TB.vhd" 

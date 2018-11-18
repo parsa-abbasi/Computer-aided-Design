@@ -1,0 +1,196 @@
+I 000045 55 1474          1542392147107 FSM3
+(_unit VHDL (fsm3 0 28 (fsm3 0 39 ))
+	(_version v80)
+	(_time 1542392147108 2018.11.16 21:45:47)
+	(_source (\./src/FSM3.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code b6b8e3e3b3e1b6a5b7b8a0ede4b0e2b5b5b0b0b1b5)
+	(_entity
+		(_time 1542392147101)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal Input ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in )(_event))))
+		(_port (_internal Rst ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in ))))
+		(_port (_internal Output ~extieee.std_logic_1164.STD_LOGIC 0 33 (_entity (_out ))))
+		(_type (_internal FSM 0 40 (_enum1 s0 s1 s2 s3 s4 s5 (_to (i 0)(i 5)))))
+		(_signal (_internal PS FSM 0 41 (_architecture (_uni ((i 0))))))
+		(_signal (_internal NS FSM 0 42 (_architecture (_uni ((i 0))))))
+		(_process
+			(line__44(_architecture 0 0 44 (_assignment (_simple)(_target(3))(_sensitivity(4)))))
+			(line__46(_architecture 1 0 46 (_process (_target(4))(_sensitivity(1)(2)(5))(_dssslsensitivity 2))))
+			(line__55(_architecture 2 0 55 (_process (_simple)(_target(5))(_sensitivity(0)(4)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+	(_model . FSM3 3 -1
+	)
+)
+I 000056 55 1934          1542392279872 TB_ARCHITECTURE
+(_unit VHDL (fsm3_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1542392279873 2018.11.16 21:47:59)
+	(_source (\./src/TestBench/fsm3_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 545b5156530354475354120f015256525253575200)
+	(_entity
+		(_time 1542392279777)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(FSM3
+			(_object
+				(_port (_internal Input ~extieee.std_logic_1164.STD_LOGIC 0 13 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Rst ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~extieee.std_logic_1164.STD_LOGIC 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component FSM3 )
+		(_port
+			((Input)(Input))
+			((Clk)(Clk))
+			((Rst)(Rst))
+			((Output)(Output))
+		)
+		(_use (_entity . FSM3)
+		)
+	)
+	(_object
+		(_signal (_internal Input ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Rst ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_signal (_internal Output ~extieee.std_logic_1164.STD_LOGIC 0 24 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 26 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 42 (_process (_wait_for)(_target(1)))))
+			(line__50(_architecture 1 0 50 (_process (_wait_for)(_target(0)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000037 55 362 0 testbench_for_fsm3
+(_configuration VHDL (testbench_for_fsm3 0 72 (fsm3_tb))
+	(_version v80)
+	(_time 1542392279903 2018.11.16 21:47:59)
+	(_source (\./src/TestBench/fsm3_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 646a6364653233736065763e3062316267626c6132)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . FSM3 fsm3
+			)
+		)
+	)
+)
+V 000045 55 1474          1542392283581 FSM3
+(_unit VHDL (fsm3 0 28 (fsm3 0 39 ))
+	(_version v80)
+	(_time 1542392283582 2018.11.16 21:48:03)
+	(_source (\./src/FSM3.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code cb9ccc9f9a9ccbd8cac5dd9099cd9fc8c8cdcdccc8)
+	(_entity
+		(_time 1542392147100)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_object
+		(_port (_internal Input ~extieee.std_logic_1164.STD_LOGIC 0 30 (_entity (_in ))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in )(_event))))
+		(_port (_internal Rst ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in ))))
+		(_port (_internal Output ~extieee.std_logic_1164.STD_LOGIC 0 33 (_entity (_out ))))
+		(_type (_internal FSM 0 40 (_enum1 s0 s1 s2 s3 s4 s5 (_to (i 0)(i 5)))))
+		(_signal (_internal PS FSM 0 41 (_architecture (_uni ((i 0))))))
+		(_signal (_internal NS FSM 0 42 (_architecture (_uni ((i 0))))))
+		(_process
+			(line__44(_architecture 0 0 44 (_assignment (_simple)(_target(3))(_sensitivity(4)))))
+			(line__46(_architecture 1 0 46 (_process (_target(4))(_sensitivity(1)(2)(5))(_dssslsensitivity 2))))
+			(line__55(_architecture 2 0 55 (_process (_simple)(_target(5))(_sensitivity(0)(4)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+	(_model . FSM3 3 -1
+	)
+)
+V 000056 55 1934          1542392284430 TB_ARCHITECTURE
+(_unit VHDL (fsm3_tb 0 6 (tb_architecture 0 9 ))
+	(_version v80)
+	(_time 1542392284431 2018.11.16 21:48:04)
+	(_source (\./src/TestBench/fsm3_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 17401411134017041017514c421115111110141143)
+	(_entity
+		(_time 1542392279776)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_component
+		(FSM3
+			(_object
+				(_port (_internal Input ~extieee.std_logic_1164.STD_LOGIC 0 13 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Rst ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~extieee.std_logic_1164.STD_LOGIC 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 33 (_component FSM3 )
+		(_port
+			((Input)(Input))
+			((Clk)(Clk))
+			((Rst)(Rst))
+			((Output)(Output))
+		)
+		(_use (_entity . FSM3)
+		)
+	)
+	(_object
+		(_signal (_internal Input ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_signal (_internal Rst ~extieee.std_logic_1164.STD_LOGIC 0 22 (_architecture (_uni ))))
+		(_signal (_internal Output ~extieee.std_logic_1164.STD_LOGIC 0 24 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 26 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 42 (_process (_wait_for)(_target(1)))))
+			(line__50(_architecture 1 0 50 (_process (_wait_for)(_target(0)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+V 000037 55 362 0 testbench_for_fsm3
+(_configuration VHDL (testbench_for_fsm3 0 72 (fsm3_tb))
+	(_version v80)
+	(_time 1542392284437 2018.11.16 21:48:04)
+	(_source (\./src/TestBench/fsm3_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 17411610154140001316054d4311421114111f1241)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . FSM3 fsm3
+			)
+		)
+	)
+)

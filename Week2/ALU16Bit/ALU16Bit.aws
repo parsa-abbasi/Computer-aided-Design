@@ -1,0 +1,12 @@
+[Version]
+Version=8.3
+[Designs]
+alu16bit=.\ALU16Bit\ALU16Bit.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+alu16bit=1
