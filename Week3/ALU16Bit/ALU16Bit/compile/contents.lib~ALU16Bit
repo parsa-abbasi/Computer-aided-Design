@@ -1,0 +1,6 @@
+48
+~E 1 "./src/TestBench/alu16bit_TB.vhd" 7 alu16bit_tb
+~A 1 "./src/TestBench/alu16bit_TB.vhd" 10 tb_architecture
+~E 1 "./src/ALU16Bit.vhd" 29 alu16bit
+~A 1 "./src/ALU16Bit.vhd" 41 alu16bit
+~C 1 "./src/TestBench/alu16bit_TB.vhd" 89 testbench_for_alu16bit

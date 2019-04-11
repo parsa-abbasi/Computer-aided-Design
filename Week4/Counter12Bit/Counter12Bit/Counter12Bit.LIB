@@ -1,0 +1,45 @@
+timestamp=1544787598289
+
+[counter12bit]
+A/counter12bit=A/Counter12Bit 21|./src/Counter12Bit.vhd|39|1*48958
+B/counter12bit=3*11000
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/counter12bit=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*568
+I/counter12bit=I/Counter12Bit 0*9718
+M=11|0|v80|1544785976105|./src/Counter12Bit.vhd|0*195*0xc91f4297ee5c78adf638e04ac0ba76079d824ac0|0*483*0xab32bc1a2daf049573e14469f634e0e6
+M/counter12bit=M/Counter12Bit 21|0|v80|1544787597462|./src/Counter12Bit.vhd|0*9039*0x53dc051ea00f5d6718ff7a2a46413762795f59b1|0*9617*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Counter12Bit.vhd|29
+
+[counter12bit_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/counter12bit_TB.vhd|10|1*51105
+B/tb_architecture=3*11651
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*2736
+I/tb_architecture=I/TB_ARCHITECTURE 0*10755
+M=11|0|v80|1544786384600|./src/TestBench/counter12bit_TB.vhd|0*2416*0x6438ffc37777eb8e41dbbaffd25db75c27871557|0*2635*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1544787598153|./src/TestBench/counter12bit_TB.vhd|0*9899*0x59e652e94732901e2a25bed950571a9d3efb80a8|0*10635*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/counter12bit_TB.vhd|7
+
+[testbench_for_counter12bit]
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+E=1*53358
+I=0*8798
+M=2|0|v80|1544787598159|./src/TestBench/counter12bit_TB.vhd|0*8350*0xc048f5511878b1e5e70b5058a85c1cdd8ecf3611|0*8668*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/counter12bit_TB.vhd|59
+
+[~A]
+ModifyID=143
+Version=73
+
+[~MFT]
+0=64|0Counter12Bit.mgf|10755|7032
+1=64|1Counter12Bit.mgf|53358|48958
+3=39|3Counter12Bit.mgf|11651|11000
+
+[~U]
+counter12bit=Counter12Bit 11|0*0|
+counter12bit_tb=11|0*2325|
+testbench_for_counter12bit=TESTBENCH_FOR_counter12bit 2||
+

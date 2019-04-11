@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: D:\Study\971\CAD\Homework\CAD-HW04\FSM1100\FSM1100\src\TestBench\fsm1100_TB.vhd" 
+MESSAGE "Compile Entity "fsm1100_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "fsm1100_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_fsm1100"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

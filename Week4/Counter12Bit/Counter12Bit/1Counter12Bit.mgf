@@ -1,0 +1,1176 @@
+I 000053 55 1967          1544785986220 Counter12Bit
+(_unit VHDL (counter12bit 0 29 (counter12bit 0 39 ))
+	(_version v80)
+	(_time 1544785986221 2018.12.14 14:43:06)
+	(_source (\./src/Counter12Bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 11161b16464740074540054b451613121012131713)
+	(_entity
+		(_time 1544785976105)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in )(_event))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal temporary ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_constant (_internal finish ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_architecture (_string \"010000111000"\))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_simple)(_target(3))(_sensitivity(0)(1))(_read(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+	)
+	(_model . Counter12Bit 1 -1
+	)
+)
+I 000053 55 2086          1544786118563 Counter12Bit
+(_unit VHDL (counter12bit 0 29 (counter12bit 0 39 ))
+	(_version v80)
+	(_time 1544786118564 2018.12.14 14:45:18)
+	(_source (\./src/Counter12Bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 080f5e0e565e591e5f0e1c525c0f0a0b090b0a0e0a)
+	(_entity
+		(_time 1544785976105)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in )(_event))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal temporary ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_constant (_internal finish ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_architecture (_string \"010000111000"\))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_simple)(_target(3))(_sensitivity(0)(1))(_read(3)))))
+			(line__59(_architecture 1 0 59 (_assignment (_simple)(_alias((Output)(temporary)))(_target(2))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+	)
+	(_model . Counter12Bit 2 -1
+	)
+)
+I 000056 55 2197          1544786405213 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544786405214 2018.12.14 14:50:05)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code c9c89e9c969f98df9fc9dd939dcecbcac8cacbcfcb)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 58 (counter12bit_tb))
+	(_version v80)
+	(_time 1544786405227 2018.12.14 14:50:05)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code d8d8888ad58e8fcfdcd9ca828cde8ddedbded0dd8e)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+I 000053 55 2086          1544786410073 Counter12Bit
+(_unit VHDL (counter12bit 0 29 (counter12bit 0 39 ))
+	(_version v80)
+	(_time 1544786410074 2018.12.14 14:50:10)
+	(_source (\./src/Counter12Bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code c4cbc791969295d293c2d09e90c3c6c7c5c7c6c2c6)
+	(_entity
+		(_time 1544785976105)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in )(_event))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal temporary ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_constant (_internal finish ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_architecture (_string \"010000111000"\))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_simple)(_target(3))(_sensitivity(0)(1))(_read(3)))))
+			(line__59(_architecture 1 0 59 (_assignment (_simple)(_alias((Output)(temporary)))(_target(2))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+	)
+	(_model . Counter12Bit 2 -1
+	)
+)
+I 000056 55 2197          1544786410712 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544786410713 2018.12.14 14:50:10)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 454a4547161314531345511f114247464446474347)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 58 (counter12bit_tb))
+	(_version v80)
+	(_time 1544786410719 2018.12.14 14:50:10)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 454b4247451312524144571f1143104346434d4013)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+I 000056 55 2197          1544786608984 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544786608985 2018.12.14 14:53:28)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code beb1b4eabde8efa8e8beaae4eab9bcbdbfbdbcb8bc)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 58 (counter12bit_tb))
+	(_version v80)
+	(_time 1544786608992 2018.12.14 14:53:28)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code cec0c39b9e9899d9cacfdc949ac89bc8cdc8c6cb98)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+I 000053 55 2086          1544786643368 Counter12Bit
+(_unit VHDL (counter12bit 0 29 (counter12bit 0 39 ))
+	(_version v80)
+	(_time 1544786643369 2018.12.14 14:54:03)
+	(_source (\./src/Counter12Bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 15111612464344034213014f411217161416171317)
+	(_entity
+		(_time 1544785976105)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in )(_event))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal temporary ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_constant (_internal finish ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_architecture (_string \"010000111000"\))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_simple)(_target(3))(_sensitivity(0)(1))(_read(3)))))
+			(line__59(_architecture 1 0 59 (_assignment (_simple)(_alias((Output)(temporary)))(_target(2))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+	)
+	(_model . Counter12Bit 2 -1
+	)
+)
+I 000056 55 2197          1544786644198 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544786644199 2018.12.14 14:54:04)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 51555152060700470751450b055653525052535753)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 58 (counter12bit_tb))
+	(_version v80)
+	(_time 1544786644204 2018.12.14 14:54:04)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 51545652550706465550430b055704575257595407)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+I 000053 55 2053          1544786746991 Counter12Bit
+(_unit VHDL (counter12bit 0 29 (counter12bit 0 39 ))
+	(_version v80)
+	(_time 1544786746992 2018.12.14 14:55:46)
+	(_source (\./src/Counter12Bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code de8ad98cdd888fc889d8ca848ad9dcdddfdddcd8dc)
+	(_entity
+		(_time 1544785976105)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in )(_event))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal temporary ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_constant (_internal finish ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_architecture (_string \"010000111000"\))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_simple)(_target(3))(_sensitivity(0)(1))(_read(3)))))
+			(line__59(_architecture 1 0 59 (_assignment (_simple)(_alias((Output)(temporary)))(_target(2))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+	)
+	(_model . Counter12Bit 2 -1
+	)
+)
+I 000056 55 2197          1544786773213 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544786773214 2018.12.14 14:56:13)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 494e184b161f185f1f485d131d4e4b4a484a4b4f4b)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 57 (counter12bit_tb))
+	(_version v80)
+	(_time 1544786773220 2018.12.14 14:56:13)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 494f1f4b451f1e5e4d485b131d4f1c4f4a4f414c1f)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+I 000053 55 2053          1544786776784 Counter12Bit
+(_unit VHDL (counter12bit 0 29 (counter12bit 0 39 ))
+	(_version v80)
+	(_time 1544786776785 2018.12.14 14:56:16)
+	(_source (\./src/Counter12Bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 333739366665622564352769673431303230313531)
+	(_entity
+		(_time 1544785976105)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in )(_event))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal temporary ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_constant (_internal finish ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_architecture (_string \"010000111000"\))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_simple)(_target(3))(_sensitivity(0)(1))(_read(3)))))
+			(line__59(_architecture 1 0 59 (_assignment (_simple)(_alias((Output)(temporary)))(_target(2))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+	)
+	(_model . Counter12Bit 2 -1
+	)
+)
+I 000056 55 2197          1544786777442 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544786777443 2018.12.14 14:56:17)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code c3c79296969592d595c2d79997c4c1c0c2c0c1c5c1)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 57 (counter12bit_tb))
+	(_version v80)
+	(_time 1544786777450 2018.12.14 14:56:17)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code d3d68581d58584c4d7d2c18987d586d5d0d5dbd685)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+I 000056 55 2197          1544786980986 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544786980987 2018.12.14 14:59:40)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code dedcdb8cdd888fc888d1ca848ad9dcdddfdddcd8dc)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 59 (counter12bit_tb))
+	(_version v80)
+	(_time 1544786981000 2018.12.14 14:59:40)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code eeedecbdbeb8b9f9eaeffcb4bae8bbe8ede8e6ebb8)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+I 000053 55 2053          1544786988854 Counter12Bit
+(_unit VHDL (counter12bit 0 29 (counter12bit 0 39 ))
+	(_version v80)
+	(_time 1544786988855 2018.12.14 14:59:48)
+	(_source (\./src/Counter12Bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code a1a1a7f6f6f7f0b7f6a7b5fbf5a6a3a2a0a2a3a7a3)
+	(_entity
+		(_time 1544785976105)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in ))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in )(_event))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal temporary ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_constant (_internal finish ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_architecture (_string \"010000111000"\))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_simple)(_target(3))(_sensitivity(0)(1))(_read(3)))))
+			(line__59(_architecture 1 0 59 (_assignment (_simple)(_alias((Output)(temporary)))(_target(2))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+	)
+	(_model . Counter12Bit 2 -1
+	)
+)
+I 000056 55 2197          1544786989563 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544786989564 2018.12.14 14:59:49)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 60606b6036363176366f743a346762636163626662)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 59 (counter12bit_tb))
+	(_version v80)
+	(_time 1544786989568 2018.12.14 14:59:49)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 70717c71752627677471622a247625767376787526)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+I 000053 55 2094          1544787220784 Counter12Bit
+(_unit VHDL (counter12bit 0 29 (counter12bit 0 39 ))
+	(_version v80)
+	(_time 1544787220785 2018.12.14 15:03:40)
+	(_source (\./src/Counter12Bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 93c0c69cc6c5c285c49787c9c79491909290919591)
+	(_entity
+		(_time 1544785976105)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in )(_event))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in )(_event))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal temporary ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_constant (_internal finish ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_architecture (_string \"010000111000"\))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_simple)(_target(3))(_sensitivity(0)(1))(_read(3)))))
+			(line__61(_architecture 1 0 61 (_assignment (_simple)(_alias((Output)(temporary)))(_target(2))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+	)
+	(_model . Counter12Bit 2 -1
+	)
+)
+I 000056 55 2197          1544787282661 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544787282662 2018.12.14 15:04:42)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 56055455060007400059420c025154555755545054)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 59 (counter12bit_tb))
+	(_version v80)
+	(_time 1544787282667 2018.12.14 15:04:42)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 56045355550001415257440c0250035055505e5300)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+I 000053 55 2094          1544787284833 Counter12Bit
+(_unit VHDL (counter12bit 0 29 (counter12bit 0 39 ))
+	(_version v80)
+	(_time 1544787284834 2018.12.14 15:04:44)
+	(_source (\./src/Counter12Bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code d281d880868483c485d6c68886d5d0d1d3d1d0d4d0)
+	(_entity
+		(_time 1544785976105)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in )(_event))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in )(_event))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal temporary ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_constant (_internal finish ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_architecture (_string \"010000111000"\))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_simple)(_target(3))(_sensitivity(0)(1))(_read(3)))))
+			(line__61(_architecture 1 0 61 (_assignment (_simple)(_alias((Output)(temporary)))(_target(2))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+	)
+	(_model . Counter12Bit 2 -1
+	)
+)
+I 000056 55 2197          1544787285431 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544787285432 2018.12.14 15:04:45)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 2370732776757235752c3779772421202220212521)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 59 (counter12bit_tb))
+	(_version v80)
+	(_time 1544787285438 2018.12.14 15:04:45)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 2371742725757434272231797725762520252b2675)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+I 000056 55 2197          1544787595180 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544787595181 2018.12.14 15:09:55)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 194e1c1e464f480f4f160d434d1e1b1a181a1b1f1b)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+I 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 59 (counter12bit_tb))
+	(_version v80)
+	(_time 1544787595191 2018.12.14 15:09:55)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code 194f1b1e154f4e0e1d180b434d1f4c1f1a1f111c4f)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)
+V 000053 55 2094          1544787597460 Counter12Bit
+(_unit VHDL (counter12bit 0 29 (counter12bit 0 39 ))
+	(_version v80)
+	(_time 1544787597461 2018.12.14 15:09:57)
+	(_source (\./src/Counter12Bit.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	(_code 035456055655521554071759570401000200010501)
+	(_entity
+		(_time 1544785976105)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 31 (_entity (_in )(_event))))
+		(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 32 (_entity (_in )(_event))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~12 0 33 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal temporary ~STD_LOGIC_VECTOR{11~downto~0}~13 0 40 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_constant (_internal finish ~STD_LOGIC_VECTOR{11~downto~0}~132 0 41 (_architecture (_string \"010000111000"\))))
+		(_process
+			(line__43(_architecture 0 0 43 (_process (_simple)(_target(3))(_sensitivity(0)(1))(_read(3)))))
+			(line__61(_architecture 1 0 61 (_assignment (_simple)(_alias((Output)(temporary)))(_target(2))(_sensitivity(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.UNSIGNED (ieee NUMERIC_STD UNSIGNED)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+		(33686018 33686018 33686018 )
+	)
+	(_model . Counter12Bit 2 -1
+	)
+)
+V 000056 55 2197          1544787598151 TB_ARCHITECTURE
+(_unit VHDL (counter12bit_tb 0 7 (tb_architecture 0 10 ))
+	(_version v80)
+	(_time 1544787598152 2018.12.14 15:09:58)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code b2e6b0e6e6e4e3a4e4bda6e8e6b5b0b1b3b1b0b4b0)
+	(_entity
+		(_time 1544786384600)
+		(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	)
+	(_component
+		(Counter12Bit
+			(_object
+				(_port (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_in ))))
+				(_port (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 15 (_entity (_in ))))
+				(_port (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component Counter12Bit )
+		(_port
+			((CountEn)(CountEn))
+			((Clk)(Clk))
+			((Output)(Output))
+		)
+		(_use (_entity . Counter12Bit)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal CountEn ~extieee.std_logic_1164.STD_LOGIC 0 20 (_architecture (_uni ))))
+		(_signal (_internal Clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 11)(i 0))))))
+		(_signal (_internal Output ~STD_LOGIC_VECTOR{11~downto~0}~132 0 23 (_architecture (_uni ))))
+		(_constant (_internal clk_period ~extSTD.STANDARD.TIME 0 24 (_architecture ((ns 4626322717216342016)))))
+		(_process
+			(clk_process(_architecture 0 0 37 (_process (_wait_for)(_target(1)))))
+			(controller_process(_architecture 1 0 45 (_process (_wait_for)(_target(0)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_model . TB_ARCHITECTURE 2 -1
+	)
+)
+V 000045 55 421 0 testbench_for_counter12bit
+(_configuration VHDL (testbench_for_counter12bit 0 59 (counter12bit_tb))
+	(_version v80)
+	(_time 1544787598158 2018.12.14 15:09:58)
+	(_source (\./src/TestBench/counter12bit_TB.vhd\))
+	(_use (std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+	(_code b2e7b7e6b5e4e5a5b6b3a0e8e6b4e7b4b1b4bab7e4)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . Counter12Bit counter12bit
+			)
+		)
+	)
+)

@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: c:\My_Designs\DualPortMemory\DualPortMemory\src\TestBench\dualportmemory_TB.vhd" 
+MESSAGE "Compile Entity "dualportmemory_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "dualportmemory_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_dualportmemory"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

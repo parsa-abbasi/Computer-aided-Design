@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\FSM3\library.cfg"  -j "c:\My_Designs\FSM3\FSM3\projlib.cfg"  -d "c:\My_Designs\FSM3\FSM3\compile"   -work FSM3  -O3 -e 100 -2002 "c:\My_Designs\FSM3\FSM3\src\TestBench\fsm3_TB.vhd" 

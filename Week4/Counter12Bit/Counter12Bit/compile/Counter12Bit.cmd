@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\Counter12Bit\library.cfg"  -j "c:\My_Designs\Counter12Bit\Counter12Bit\projlib.cfg"  -d "c:\My_Designs\Counter12Bit\Counter12Bit\compile"   -work Counter12Bit  -O3 -e 100 -2002 "c:\My_Designs\Counter12Bit\Counter12Bit\src\TestBench\counter12bit_TB.vhd" 

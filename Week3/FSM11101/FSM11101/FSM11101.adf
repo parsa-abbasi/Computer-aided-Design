@@ -1,0 +1,73 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=FSM11101
+
+[Library]
+FSM11101=.\FSM11101.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+FSM11101=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=fsm11101|fsm11101|0 fsm11101_tb|testbench_for_fsm11101|1 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/FSM11101.vhd=-1
+/untitled.asdb=-1
+TestBench/fsm11101_TB.vhd=-1
+TestBench/fsm11101_TB_runtest.do=-1
+/untitled.awc=-1
+
+[Files.Data]
+.\src\FSM11101.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\..\..\ALU16Bit\ALU16Bit\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\fsm11101_TB.vhd=VHDL Test Bench
+.\src\TestBench\fsm11101_TB_runtest.do=Macro
+
+.\src\untitled.awc=Accelerated Waveform Configuration

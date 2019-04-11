@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\InertialTransportReject\library.cfg"  -j "c:\My_Designs\InertialTransportReject\InertialTransportReject\projlib.cfg"  -d "c:\My_Designs\InertialTransportReject\InertialTransportReject\compile"   -work InertialTransportReject  -O3 -e 100 -2002 "c:\My_Designs\InertialTransportReject\InertialTransportReject\src\TestBench\inertialtransportreject_TB.vhd" 

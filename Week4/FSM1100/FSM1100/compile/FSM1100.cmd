@@ -1,0 +1,1 @@
+-w -s "D:\Study\971\CAD\Homework\CAD-HW04\FSM1100\library.cfg"  -j "D:\Study\971\CAD\Homework\CAD-HW04\FSM1100\FSM1100\projlib.cfg"  -d "D:\Study\971\CAD\Homework\CAD-HW04\FSM1100\FSM1100\compile"   -work FSM1100  -O3 -e 100 -2002 "D:\Study\971\CAD\Homework\CAD-HW04\FSM1100\FSM1100\src\TestBench\fsm1100_TB.vhd" 

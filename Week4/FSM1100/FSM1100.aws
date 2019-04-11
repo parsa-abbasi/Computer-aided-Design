@@ -1,0 +1,14 @@
+[Version]
+Version=8.3
+[Designs]
+fsm1100=.\FSM1100\FSM1100.adf
+dma=C:\Users\Parsa\AppData\Local\Temp\Rar$DIa0.389\DMA.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+fsm1100=1
+dma=0

@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\ALU16Bit\library.cfg"  -j "c:\My_Designs\ALU16Bit\ALU16Bit\projlib.cfg"  -d "c:\My_Designs\ALU16Bit\ALU16Bit\compile"   -work ALU16Bit  -O3 -e 100 -2002 "c:\My_Designs\ALU16Bit\ALU16Bit\src\TestBench\alu16bit_TB.vhd" 

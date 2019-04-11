@@ -1,0 +1,6 @@
+143
+~E 1 "./src/TestBench/counter12bit_TB.vhd" 7 counter12bit_tb
+~A 1 "./src/TestBench/counter12bit_TB.vhd" 10 tb_architecture
+~E 1 "./src/Counter12Bit.vhd" 29 counter12bit
+~A 1 "./src/Counter12Bit.vhd" 39 counter12bit
+~C 1 "./src/TestBench/counter12bit_TB.vhd" 59 testbench_for_counter12bit

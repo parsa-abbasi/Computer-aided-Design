@@ -1,0 +1,82 @@
+# Design: Design InertialTransportReject already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -work InertialTransportReject -2002  $dsn/src/InertialTransportReject.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\InertialTransportReject\InertialTransportReject\src\InertialTransportReject.vhd
+# Compile Entity "InertialTransportReject"
+# Compile Architecture "InertialTransportReject" of Entity "InertialTransportReject"
+# Top-level unit(s) detected:
+# Entity => InertialTransportReject
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -work InertialTransportReject -2002  $dsn/src/TestBench/inertialtransportreject_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\InertialTransportReject\InertialTransportReject\src\TestBench\inertialtransportreject_TB.vhd
+# Compile Entity "inertialtransportreject_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "inertialtransportreject_tb"
+# Compile Configuration "TESTBENCH_FOR_inertialtransportreject"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+SetActiveLib -work
+comp -include "$dsn\src\InertialTransportReject.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\InertialTransportReject\InertialTransportReject\src\InertialTransportReject.vhd
+# Compile Entity "InertialTransportReject"
+# Compile Architecture "InertialTransportReject" of Entity "InertialTransportReject"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\inertialtransportreject_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\InertialTransportReject\InertialTransportReject\src\TestBench\inertialtransportreject_TB.vhd
+# Compile Entity "inertialtransportreject_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "inertialtransportreject_tb"
+# Compile Configuration "TESTBENCH_FOR_inertialtransportreject"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+asim +access +r TESTBENCH_FOR_inertialtransportreject 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6263 kB (elbread=1023 elab2=4892 kernel=346 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\InertialTransportReject\InertialTransportReject\src\wave.asdb
+#  10:36 È.Ù, ÌãÚå, 25 ÂÈÇä 1397
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_inertialtransportreject
+wave 
+wave -noreg qin
+wave -noreg Y1
+wave -noreg Y2
+wave -noreg Y3
+wave -noreg Y4
+wave -noreg Y5
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\inertialtransportreject_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_inertialtransportreject 
+# 6 signal(s) traced.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+#  Simulation has been stopped
+# Adding file c:\My_Designs\InertialTransportReject\InertialTransportReject\src\untitled.asdb ... Done
+# Adding file c:\My_Designs\InertialTransportReject\InertialTransportReject\src\untitled.awc ... Done

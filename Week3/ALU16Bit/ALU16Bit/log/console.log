@@ -1,0 +1,305 @@
+# Design: Design ALU16Bit already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0015: ALU16Bit.vhd : (42, 1): ';' expected.
+# Error: COMP96_0019: ALU16Bit.vhd : (44, 8): Keyword '<=' expected.
+# Error: COMP96_0039: ALU16Bit.vhd : (44, 16): Incorrect syntax of signal assignment.
+# Error: COMP96_0015: ALU16Bit.vhd : (49, 8): ';' expected.
+# Error: COMP96_0016: ALU16Bit.vhd : (49, 10): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0019: ALU16Bit.vhd : (43, 8): Keyword '<=' expected.
+# Error: COMP96_0039: ALU16Bit.vhd : (43, 16): Incorrect syntax of signal assignment.
+# Error: COMP96_0015: ALU16Bit.vhd : (48, 8): ';' expected.
+# Error: COMP96_0016: ALU16Bit.vhd : (48, 10): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0019: ALU16Bit.vhd : (44, 8): Keyword '<=' expected.
+# Error: COMP96_0039: ALU16Bit.vhd : (44, 16): Incorrect syntax of signal assignment.
+# Error: COMP96_0015: ALU16Bit.vhd : (49, 8): ';' expected.
+# Error: COMP96_0016: ALU16Bit.vhd : (49, 10): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0019: ALU16Bit.vhd : (44, 8): Keyword '<=' expected.
+# Error: COMP96_0039: ALU16Bit.vhd : (44, 16): Incorrect syntax of signal assignment.
+# Error: COMP96_0015: ALU16Bit.vhd : (49, 8): ';' expected.
+# Error: COMP96_0016: ALU16Bit.vhd : (49, 10): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0019: ALU16Bit.vhd : (53, 5): Keyword '<=' expected.
+# Error: COMP96_0039: ALU16Bit.vhd : (53, 17): Incorrect syntax of signal assignment.
+# Error: COMP96_0019: ALU16Bit.vhd : (56, 3): Keyword 'end' expected.
+# Error: COMP96_0016: ALU16Bit.vhd : (56, 8): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0078: ALU16Bit.vhd : (56, 8): Unknown identifier "Commmand".
+# Error: COMP96_0133: ALU16Bit.vhd : (56, 8): Cannot find object declaration.
+# Error: COMP96_0584: ALU16Bit.vhd : (56, 8): Cannot determine the type of the case expression. Enumeration type, integer type, or one-dimensional array of characters expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0071: ALU16Bit.vhd : (57, 36): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (57, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (58, 36): Operator "-" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (58, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (59, 36): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (59, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (60, 28): Operator "not" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (60, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: ALU16Bit.vhd : (64, 44): Unknown identifier "unsigned".
+# Error: COMP96_0133: ALU16Bit.vhd : (64, 44): Cannot find object declaration.
+# Error: COMP96_0289: ALU16Bit.vhd : (64, 44): Prefix of index must be an array.
+# Error: COMP96_0149: ALU16Bit.vhd : (64, 44): Explicit type conversions are allowed between closely related types only.
+# Compile failure 12 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0078: ALU16Bit.vhd : (57, 27): Unknown identifier "unsigned".
+# Error: COMP96_0078: ALU16Bit.vhd : (57, 46): Unknown identifier "unsigned".
+# Error: COMP96_0133: ALU16Bit.vhd : (57, 27): Cannot find object declaration.
+# Error: COMP96_0289: ALU16Bit.vhd : (57, 27): Prefix of index must be an array.
+# Error: COMP96_0077: ALU16Bit.vhd : (57, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (58, 36): Operator "-" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (58, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (59, 36): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (59, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (60, 28): Operator "not" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (60, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: ALU16Bit.vhd : (64, 44): Unknown identifier "unsigned".
+# Error: COMP96_0133: ALU16Bit.vhd : (64, 44): Cannot find object declaration.
+# Error: COMP96_0289: ALU16Bit.vhd : (64, 44): Prefix of index must be an array.
+# Error: COMP96_0149: ALU16Bit.vhd : (64, 44): Explicit type conversions are allowed between closely related types only.
+# Compile failure 15 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0071: ALU16Bit.vhd : (58, 46): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (58, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (59, 36): Operator "-" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (59, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (60, 36): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (60, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (61, 28): Operator "not" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (61, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0071: ALU16Bit.vhd : (59, 36): Operator "-" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (59, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (60, 36): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (60, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0071: ALU16Bit.vhd : (61, 28): Operator "not" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (61, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0149: ALU16Bit.vhd : (60, 72): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0149: ALU16Bit.vhd : (61, 78): Explicit type conversions are allowed between closely related types only.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0071: ALU16Bit.vhd : (60, 63): Operator "+" is not defined for such operands.
+# Error: COMP96_0149: ALU16Bit.vhd : (60, 44): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0149: ALU16Bit.vhd : (61, 78): Explicit type conversions are allowed between closely related types only.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0071: ALU16Bit.vhd : (60, 62): Operator "+" is not defined for such operands.
+# Error: COMP96_0149: ALU16Bit.vhd : (60, 53): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0149: ALU16Bit.vhd : (61, 78): Explicit type conversions are allowed between closely related types only.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0149: ALU16Bit.vhd : (60, 72): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0149: ALU16Bit.vhd : (61, 78): Explicit type conversions are allowed between closely related types only.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0149: ALU16Bit.vhd : (60, 55): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0071: ALU16Bit.vhd : (60, 46): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (60, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0149: ALU16Bit.vhd : (61, 78): Explicit type conversions are allowed between closely related types only.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0071: ALU16Bit.vhd : (60, 53): Operator "+" is not defined for such operands.
+# Error: COMP96_0149: ALU16Bit.vhd : (60, 44): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0149: ALU16Bit.vhd : (61, 78): Explicit type conversions are allowed between closely related types only.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0071: ALU16Bit.vhd : (60, 36): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: ALU16Bit.vhd : (60, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0149: ALU16Bit.vhd : (61, 78): Explicit type conversions are allowed between closely related types only.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0149: ALU16Bit.vhd : (60, 72): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0149: ALU16Bit.vhd : (61, 78): Explicit type conversions are allowed between closely related types only.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0149: ALU16Bit.vhd : (60, 72): Explicit type conversions are allowed between closely related types only.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Error: COMP96_0149: ALU16Bit.vhd : (62, 78): Explicit type conversions are allowed between closely related types only.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work ALU16Bit -2002  $dsn/src/ALU16Bit.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -O3 -work ALU16Bit -2002  $dsn/src/TestBench/alu16bit_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\TestBench\alu16bit_TB.vhd
+# Compile Entity "alu16bit_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu16bit_tb"
+# Compile Configuration "TESTBENCH_FOR_alu16bit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+SetActiveLib -work
+comp -include "$dsn\src\ALU16Bit.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\ALU16Bit.vhd
+# Compile Entity "ALU16Bit"
+# Compile Architecture "ALU16Bit" of Entity "ALU16Bit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\alu16bit_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\ALU16Bit\ALU16Bit\src\TestBench\alu16bit_TB.vhd
+# Compile Entity "alu16bit_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu16bit_tb"
+# Compile Configuration "TESTBENCH_FOR_alu16bit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_alu16bit 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6178 kB (elbread=1023 elab2=4806 kernel=348 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ALU16Bit\ALU16Bit\src\wave.asdb
+#  03:06 È.Ù, ÌãÚå, 25 ÂÈÇä 1397
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_alu16bit
+wave 
+wave -noreg InputA
+wave -noreg InputB
+wave -noreg Command
+wave -noreg Clk
+wave -noreg ALUEn
+wave -noreg Output
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\alu16bit_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_alu16bit 
+# 6 signal(s) traced.
+run
+endsim
+# KERNEL: stopped at time: 196920250 ns
+#  Simulation has been stopped

@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\DualPortMemory\library.cfg"  -j "c:\My_Designs\DualPortMemory\DualPortMemory\projlib.cfg"  -d "c:\My_Designs\DualPortMemory\DualPortMemory\compile"   -work DualPortMemory  -O3 -e 100 -2002 "c:\My_Designs\DualPortMemory\DualPortMemory\src\TestBench\dualportmemory_TB.vhd" 

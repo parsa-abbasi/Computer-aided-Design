@@ -1,0 +1,45 @@
+timestamp=1544799548995
+
+[dualportmemory]
+A/dualportmemory=A/DualPortMemory 21|./src/DualPortMemory.vhd|43|1*9236
+B/dualportmemory=3*2639
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/dualportmemory=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*1031
+I/dualportmemory=I/DualPortMemory 0*2246
+M=11|0|v80|1544798621044|./src/DualPortMemory.vhd|0*473*0xdcca87a043931b4c81adbf75abc5873dbe11ecf6|0*942*0xab32bc1a2daf049573e14469f634e0e6
+M/dualportmemory=M/DualPortMemory 21|0|v80|1544799350705|./src/DualPortMemory.vhd|0*1208*0xbb1081820684d48c60dab9126cb268bbb4f6a96e|0*2139*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/DualPortMemory.vhd|29
+
+[dualportmemory_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/dualportmemory_TB.vhd|14|1*18472
+B/tb_architecture=3*4112
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*3009
+I/tb_architecture=I/TB_ARCHITECTURE 0*7324
+M=11|0|v80|1544799346659|./src/TestBench/dualportmemory_TB.vhd|0*2609*0x0612aef41836b77a8fafd4c3600d03eb95b40a9a|0*2904*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1544799548655|./src/TestBench/dualportmemory_TB.vhd|0*5747*0x404843bb8d72921ea407ce179bd65443e3a02e72|0*7200*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/dualportmemory_TB.vhd|7
+
+[testbench_for_dualportmemory]
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+E=1*23519
+I=0*8053
+M=2|0|v80|1544799548670|./src/TestBench/dualportmemory_TB.vhd|0*7581*0x3a77260eed0c4da519216fbc1ed99723ceed5f12|0*7917*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/dualportmemory_TB.vhd|97
+
+[~A]
+ModifyID=32
+Version=73
+
+[~MFT]
+0=28|0DualPortMemory.mgf|8053|2558
+1=12|1DualPortMemory.mgf|23519|14974
+3=7|3DualPortMemory.mgf|4112|2639
+
+[~U]
+dualportmemory=DualPortMemory 11|0*0|
+dualportmemory_tb=11|0*2438|
+testbench_for_dualportmemory=TESTBENCH_FOR_dualportmemory 2||
+
